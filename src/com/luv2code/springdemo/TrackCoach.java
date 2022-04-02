@@ -16,5 +16,11 @@ public class TrackCoach implements Coach {
 		return "Just do it: " + fortuneService.getFortune();
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 }
