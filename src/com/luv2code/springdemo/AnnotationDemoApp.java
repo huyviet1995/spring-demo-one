@@ -17,6 +17,9 @@ public class AnnotationDemoApp {
 		
 		System.out.println(theSwimmingCoach.getDailyWorkout());
 		
+		// Call method to get the daily fortune service
+		System.out.println(theCoach.getDailyFortune());
+		
 		
 		// Close the container
 		context.close();
